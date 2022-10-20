@@ -19,26 +19,43 @@
     <div class="container">
       <div class="weather-app-wrap">
         <div class="weather-app">
-          <h1 id="city">-</h1>
-          <ul>
-            <li>Last updated: <span id="date"></span></li>
-            <li id="description">Clear</li>
-          </ul>
-          <div class="row">
-            <div class="col-6">
-              <div class="d-flex weather-temperature">
-                <img src="" alt="cloudy" id="icon" class="float-left" />
-                <div class="float-left">
-                  <strong id="temperature">12</strong>
-                  <span class="units">°C | <a href="#">°F</a></span>
-                </div>
+          <form id="search-form" class="mb-3">
+            <div class="row">
+              <div class="col-8">
+                <input
+                  type="search"
+                  placeholder="Enter city"
+                  class="form-control"
+                  id="city-input"
+                />
+              </div>
+              <div class="col-3">
+                <input type="submit" value="Search" class="btn btn-primary" />
               </div>
             </div>
-            <div class="col-6">
-              <ul>
-                <li>Humidity <span id="humidity"></span>%</li>
-                <li>Wind <span id="wind"></span> km/h</li>
-              </ul>
+          </form>
+          <div class="overview">
+            <h1 id="city">-</h1>
+            <ul>
+              <li>Last updated: <span id="date"></span></li>
+              <li id="description">Clear</li>
+            </ul>
+            <div class="row">
+              <div class="col-6">
+                <div class="d-flex weather-temperature">
+                  <img src="" alt="cloudy" id="icon" class="float-left" />
+                  <div class="float-left">
+                    <strong id="temperature">12</strong>
+                    <span class="units">°C | <a href="#">°F</a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-6">
+                <ul>
+                  <li>Humidity <span id="humidity"></span>%</li>
+                  <li>Wind <span id="wind"></span> km/h</li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
