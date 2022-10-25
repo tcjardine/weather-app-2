@@ -21,6 +21,7 @@ li {
 li:first-letter {
   text-transform: capitalize;
 }
+
 .weather-app-wrap {
   max-width: 600px;
   margin: 30px auto;
@@ -43,14 +44,22 @@ li:first-letter {
 }
 .weather-temperature .units {
   position: relative;
-  font-size: 16px;
+  font-size: 20px;
   top: -30px;
 }
-.weather-temperature .active {
-  color: rgb(27, 187, 179);
-  cursor: default;
-  text-decoration: none;
+.weather-forecast {
+  margin-top: 16px;
+  text-align: center;
+  color: #000;
 }
-.weather-temperature .active:hover {
-  text-decoration: none;
+.weather-forecast-date {
+  font-size: 16px;
+  color: cornflowerblue;
+}
+
+.weather-forecast-temp-min {
+  opacity: 0.5;
+}
+.weather-forecast-temp {
+  font-size: 15px;
 }
