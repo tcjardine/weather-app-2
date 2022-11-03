@@ -66,6 +66,21 @@ li:first-letter {
   text-align: center;
   color: rgb(178, 221, 231);
 }
+.btn-search {
+  padding: 6px 27px;
+  margin-left: 20px;
+  background: #77b2b6;
+  border-radius: 5px;
+  color: #fff;
+  border: 1px solid #a8c2c4;
+  cursor: pointer;
+  transition: all 200ms ease-in-out;
+}
+
+.btn-search:hover {
+  background: white;
+  color: #78b7bb;
+}
 .weather-forecast-date {
   font-size: 16px;
   color: rgb(158, 210, 235);
