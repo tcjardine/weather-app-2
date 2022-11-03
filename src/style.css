@@ -1,3 +1,10 @@
+body {
+  background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/051/262/original/background.jpg?1667438506);
+  background-repeat: no-repeat;
+  background-position: 10%;
+  background-size: auto;
+}
+
 h1 {
   color: cornflowerblue;
   font-size: 24px;
@@ -29,6 +36,18 @@ li:first-letter {
   padding: 20px;
   border: 1px solid #dadde1;
   border-radius: 25px 10px;
+  background: rgb(48, 102, 143);
+  background: rgb(48, 102, 143);
+  background: rgb(48, 102, 143);
+  background: rgb(48, 102, 143);
+  background: rgb(48, 102, 143);
+  background: rgb(48, 102, 143);
+  background: linear-gradient(
+    309deg,
+    rgba(48, 102, 143, 0.6615021008403361) 10%,
+    rgba(61, 94, 98, 1) 34%,
+    rgba(1, 21, 45, 0.927608543417367) 59%
+  );
 }
 .weather-temperature img {
   margin-right: 7px;
@@ -36,7 +55,7 @@ li:first-letter {
   width: 64px;
 }
 .weather-temperature strong {
-  color: blue;
+  color: rgb(231, 231, 240);
   font-size: 64px;
   line-height: 1;
   font-weight: 400;
@@ -49,11 +68,11 @@ li:first-letter {
 .weather-forecast {
   margin-top: 16px;
   text-align: center;
-  color: #000;
+  color: rgb(178, 221, 231);
 }
 .weather-forecast-date {
   font-size: 16px;
-  color: cornflowerblue;
+  color: rgb(158, 210, 235);
 }
 
 .weather-forecast-temp-min {
