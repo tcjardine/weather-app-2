@@ -33,7 +33,7 @@ li:first-letter {
   margin: 30px auto;
 }
 .weather-app {
-  padding: 20px;
+  padding: 40px 50px;
   border: 1px solid #dadde1;
   border-radius: 25px 10px;
   background: rgb(48, 102, 143);
