@@ -7,7 +7,7 @@ body {
 
 h1 {
   color: rgb(176, 226, 238);
-  font-size: 24px;
+  font-size: 28px;
   font-weight: 400;
   margin-bottom: 0%;
 }
@@ -31,6 +31,7 @@ li:first-letter {
 .weather-app-wrap {
   max-width: 600px;
   margin: 30px auto;
+  font-family: Cambria, Cochin, "Georgia", Times, Times New Roman, serif;
 }
 .weather-app {
   padding: 40px 50px;
@@ -52,13 +53,13 @@ li:first-letter {
 }
 .weather-temperature strong {
   color: rgb(231, 231, 240);
-  font-size: 64px;
+  font-size: 67px;
   line-height: 1;
   font-weight: 400;
 }
 .weather-temperature .units {
   position: relative;
-  font-size: 20px;
+  font-size: 30px;
   top: -30px;
   color: darkgrey;
 }
@@ -87,7 +88,7 @@ li:first-letter {
   color: #78b7bb;
 }
 .weather-forecast-date {
-  font-size: 16px;
+  font-size: 18px;
   color: rgb(35, 57, 68);
 }
 
