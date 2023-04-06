@@ -67,9 +67,9 @@ li:first-letter {
   margin-top: 16px;
   text-align: center;
   font-weight: 500px;
-  color: rgb(20, 23, 24);
+  color: rgb(255 255 255);
   border-radius: 10px;
-  background-color: rgba(188, 247, 255, 0.651);
+  background-color: rgb(125 138 138 / 7%);
 }
 
 .btn-search {
@@ -89,11 +89,11 @@ li:first-letter {
 }
 .weather-forecast-date {
   font-size: 18px;
-  color: rgb(35, 57, 68);
+  color: rgb(217 242 255 / 74%);
 }
 
 .weather-forecast-temp-min {
-  opacity: 0.5;
+  opacity: 0.7;
 }
 .weather-forecast-temp {
   font-size: 15px;
