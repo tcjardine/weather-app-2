@@ -74,7 +74,6 @@ li:first-letter {
 
 .btn-search {
   padding: 6px 27px;
-  margin-left: 20px;
   background: #77b2b6;
   border-radius: 5px;
   color: #fff;
@@ -100,4 +99,13 @@ li:first-letter {
 }
 small {
   color: white;
+}
+@media (max-width: 500px;) {
+  .container {
+    padding: 0%;
+  }
+  .weather-app {
+    padding: 0%;
+  }
+
 }
